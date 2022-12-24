@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: url(../img/Banner.jpg) no-repeat center;
+    backdrop-filter: blur(25px);
+}
+#canvas{
+    box-shadow:0 0 10px inset rgb(150, 146, 146), 0px 0px 10px;
+}
+button{
+    width: 5rem;
+    height: 3rem;
+    padding: 0.2px;
+}
